@@ -20,7 +20,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2617452479
 * **Wind** - Temporarily applies a constant gust of wind in a random direction.
 * **Spring World** - Temporarily gives the entire world properties of a spring so the Player will not stop bouncing.
 * **Give Triple Jump** - Temporarily gives the Player a third jump.
-* **Disable Jump** - Temporarily disables the Player's ability to jump entired.
+* **Disable Jump** - Temporarily disables the Player's ability to jump entirely.
 * **Disable Double Jump** - Temporarily takes away the Player's double jump.
 * **Disable Weapon** - Temporarily takes away the Player's weapon.
 * **Lose Hat** - Temporarily makes it so the Player can't use hat abilities.
