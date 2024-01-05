@@ -1,0 +1,77 @@
+[h1] NOTE: This mod will not work on the current version of the game due to a bug that broke the functionality that makes this work. You MUST downpatch to an older version of the game to be able to use it. See below for more instructions on how to install this properly. [h1] 
+
+[h3] Description: [/h3]
+This mod adds Crowd Control support to A Hat in Time. Crowd Control is a Twitch extension that allows Twitch chat to convert bits, subs and channel points to coins, in exchange for game effects to be played in the game. Check out https://crowdcontrol.live/ for more info.
+
+[h3] Crowd Control Installation: [/h3]
+
+You will need to install the Crowd Control Twitch extension and Crowd Control desktop app. Take a look at how to set those up here: 
+[list]
+    [*]https://crowdcontrol.live/setup
+    [*]https://forum.warp.world/t/a-hat-in-time-pc/24014
+[/list]
+
+Also, check out the Github Page for more information: https://github.com/jasminegamedev/AHITCrowdControl
+
+[h3] Installing an older version of the game: [/h3]
+As mentioned above, there is currently a bug which makes this mod incompatible with the current version of the game. That means to use this, you will need to install an older version of the game.
+
+[olist]
+    [*]Open the Steam console by pasting this into your web browser's URL bar: steam://open/console
+    [*]In the Steam console, enter the following command: 
+            [code]download_depot 253230 253232 5715663900172800998[/code]
+    [*]Wait for the console message that says: [code]Depot download complete [/code]
+    [*]After the download is complete, open steamapps/content/app_253230 in Steam's program folder.
+    [*]There should be a folder named depot_253232. Rename it to HatinTime_CC and move it to the steamapps/common folder.
+    [*]In the HatinTime_CC folder, navigate to Binaries/Win64 and create a new file called [code]steam_appid.txt[/code]. In this new text file, input the number [code]253230[/code] on the first line, then save and close the file.
+    [*]Optional: Create a shortcut of HatinTimeGame.exe from that folder and move it to wherever you'd like. You will use this shortcut to open the Crowd Control Compatible version of A Hat in Time. Otherwise, you can just open HatinTimeGame.exe directly.
+[/olist]
+
+[h3] Additional Notes: [/h3]
+[list]
+    [*]The crowd control extension should be started and running before the Crowd Control Extension is started. If you start the game first, it won't connect properly. But you can get around this by opening the mod settings in game, and disabling and reenabling this mod.
+    [*]Since this is on an older version of the game, that means newer mods might not be compatible. This will also not be compatible with the Vanessa's Curse CDLC.
+[/list]
+
+[h3] Credits: [/h3]
+[list]
+    [*]Jazzrabbit - Mod Developer
+    [*]Moumekie - Noodly Annoyance animation
+    [*]The Crowd Control Team for their support
+[/list]
+
+[h3] Current List of Effects: [/h3]
+[list]
+    [*]Give Health
+    [*]Take Damage
+    [*]Kill
+    [*]Make Invincible
+    [*]One Hit Hero
+    [*]Increase Gravity
+    [*]Decrease Gravity
+    [*]Wind
+    [*]Spring World
+    [*]Give Triple Jump
+    [*]Disable Jump
+    [*]Disable Double Jump
+    [*]Disable Weapon
+    [*]Lose Hat
+    [*]Babysitting
+    [*]Parade
+    [*]Noodly Annoyance
+    [*]Go Fast
+    [*]Go Slow
+    [*]Force Time Stop
+    [*]Force Dweller Sphere
+    [*]Force Ice Statue
+    [*]Shrink
+    [*]Grow
+    [*]Make Invisible
+    [*]Random Filter
+    [*]Random Costume
+    [*]First Person
+    [*]Reverse Controls
+    [*]Mirror Mode
+    [*]Give Random Timepiece
+    [*]Take Random Timepiece
+[/list]
