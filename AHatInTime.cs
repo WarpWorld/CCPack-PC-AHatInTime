@@ -1,20 +1,24 @@
 using System;
-using System.Collections.Generic;
 using CrowdControl.Common;
-using CrowdControl.Games.Packs;
 using ConnectorType = CrowdControl.Common.ConnectorType;
 
-namespace CrowdControl.Games.Packs.AHatInTime
+namespace CrowdControl.Games.Packs.AHatInTime;
+
+public class AHatInTime : SimpleTCPPack
 {
-    public class AHatInTime : SimpleTCPPack
+    public override string Host => "127.0.0.1";
+
+    public override ushort Port => 1452;
+
+    public override ISimpleTCPPack.MessageFormat MessageFormat => ISimpleTCPPack.MessageFormat.CrowdControlLegacy;
+
+    public AHatInTime(UserRecord player, Func<CrowdControlBlock, bool> responseHandler,
+        Action<object> statusUpdateHandler) : base(player, responseHandler, statusUpdateHandler)
     {
-        public override string Host => "127.0.0.1";
+    }
 
-        public override ushort Port => 1452;
+    public override Game Game => new("A Hat in Time", "AHatInTime", "PC", ConnectorType.SimpleTCPConnector);
 
-        public AHatInTime(UserRecord player, Func<CrowdControlBlock, bool> responseHandler, Action<object> statusUpdateHandler) : base(player, responseHandler, statusUpdateHandler) { }
-
-        public override Game Game => new Game(42, "A Hat in Time", "AHatInTime", "PC", ConnectorType.SimpleTCPConnector);
 
         public override EffectList Effects { get; } = new Effect[]
         {
