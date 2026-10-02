@@ -1,6 +1,6 @@
 # A Hat in Time: Crowd Control
 
-This is a mod adds Crowd Control support for the cute-as-heck indie platformer, A Hat in Time. Crowd Control is a Twitch extension that allows Twitch chat to convert bits, subs and channel points to coins, in exchange for effects. Check out https://crowdcontrol.live/ for more info.  
+This is a mod adds Crowd Control support for the cute-as-heck indie platformer, A Hat in Time. Crowd Control is a Twitch extension that allows Twitch chat to convert bits, subs and channel points to coins, in exchange for effects. Check out https://crowdcontrol.live/ for more info.
 
 In addition to this mod, you will also need the CC Twitch extension and CC desktop app. Take a look at our Twitch extension setup here:
 https://crowdcontrol.live/setup
@@ -43,3 +43,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2617452479
 * **Random Costume** - Randomly set the player's costume to any dye or costume in the game. (Includes mod costumes, and costumes that have not been unloced yet)
 * **Give Random Timepiece** - Give the player a random Timepiece that they do not already have.
 * **Take Random Timepiece** - Take a random timepiece from the player.
+
+## Repository layout
+
+- `AHatInTime.cs` defines the Crowd Control pack.
+- `Classes/` and `Content/` contain the mod source and game content.
+- `modinfo.ini` is the mod manifest; `icon.jpg` and `SteamDescription.txt` provide its published metadata.
